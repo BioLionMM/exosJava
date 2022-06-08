@@ -16,13 +16,21 @@ Ecrire un algorithme qui demande l'âge d'un enfant. Ensuite, il l'informe de sa
 
 —--
 Declarer variable integer age;
+
 Obtenir l’age tapé par l’utilisateur.
+
 Si age<7 alors renvoie “invalide”
+
 Sinon si age<=9 alors renvoie “poussin”
+
 Sinon si age<=11 alors renvoie “pupille”
+
 Sinon si age<=13 alors renvoie “benjamin”
+
 Sinon si age<=15 alors renvoie “minime”
+
 Sinon si age <=17 alors renvoie “cadet”
+
 Sinon alors renvoie “invalide”
 
 —-
@@ -30,13 +38,20 @@ E2.
 Ecrire un programme Java qui demande à l'utilisateur de saisir la valeur du diamètre, et qui ensuite va effectuer le calcul de la surface.
 
 Surface = Rayon x Rayon x PI;
+
 Rayon = Diamètre / 2
 —-
+
 Declarer valeur diametre float
+
 declarer float rayon
+
 declarer float pi
+
 declarer float surface
+
 surface=rayonxrayonxpi
+
 rayon=diametre/2
 
 
@@ -44,9 +59,13 @@ rayon=diametre/2
 E3.
 Ecrire un programme Java qui demande à l'utilisateur de saisir son nom, prenom et age, et qui ensuite va afficher le message : "Vous vous appelez <prenom> <nom>, et vous avez <age> ans"
 —-
+  
 declarer nom, prenom string
+  
 declarer age int
+  
 recuperer prenom, nom et age
+  
 print "Vous vous appelez <prenom> <nom>, et vous avez <age> ans"
 
 
@@ -62,10 +81,15 @@ Les valeurs entrées sont : a = 51, b = 876 et c = 235
 Permutation: b <== a, c <== b, a <== c
 Les valeurs permutées sont : a = 235, b = 51 et c = 876
 —
+                                    
 declarer int a,b,c
+                                    
 intermediaire=b
+                                    
 b=a
+                                    
 a=c
+                                    
 c=intermediaire
 
 Print 
@@ -85,9 +109,14 @@ Exemple d'exécution du programme:
 age = 30
 Votre année de naissance est : 1992
 —-
+  
 declarer int age 
+  
 recuperer age
+  
 declarer int anneeNaissance
+  
 anneeNaissance=2022-age
+  
 print Votre année de naissance est : 1992
 
